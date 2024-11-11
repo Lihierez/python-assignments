@@ -4,5 +4,5 @@ This repository contains my assignments and projects from the [Python Programmin
 Each folder represents a different lesson of the course, containing the relevant solutions for the assignment. 
 
 ## Current Content:
-- **Day 02**: Basic Python programming assignments
+- **Day 02**:
   - Create a python code and Jupyter Notebook to calculate the area and circumference of circle and rectangle.
