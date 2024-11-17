@@ -6,3 +6,7 @@ Each folder represents a different lesson of the course, containing the relevant
 ## Current Content:
 - **Day 02**:
   - Create a python code and Jupyter Notebook to calculate the area and circumference of circle and rectangle.
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" alt="python" width="100" style="border-radius: 15px;">
+</p>
