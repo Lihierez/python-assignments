@@ -8,4 +8,4 @@ radius = args.radius
 area= math.pi * radius**2
 circumference= 2*math.pi* radius
 print('circle area is:', area)
-print('circle circumference is:', circumference)python circle.py --radius 5
+print('circle circumference is:', circumference)
