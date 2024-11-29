@@ -5,16 +5,23 @@ import random
 
 # The user guesses
 def user_guess ():
-    user_input = input("Guess a number between 1 to 20:"). strip()
-    # If the user enters "x" any time, exit the program.
-    if user_input == 'x':
-        print("Thanks for playing!")
-        exit()
-    elif user_input == 'n':
-        return 'new_game'
-    elif user_input == 's':
-        return 'show_secret'
-    return int(user_input)
+
+    while True:
+
+        user_input = input("Guess a number between 1 to 20:"). strip()
+        # If the user enters "x" any time, exit the program.
+        if user_input == 'x':
+            print("Thanks for playing!")
+            exit()
+        elif user_input == 'n':
+            return 'new_game'
+        elif user_input == 's':
+            return 'show_secret'
+        
+        try:
+            return int(user_input)
+        except ValueError:
+            print("Invalid input. Please enter a number between 1 to 20, 'x' to exit, 'n' for new game, or 's' to cheat.")
 
 def main ():
     # The computer "thinks" a about a whole number between 1 and 20
