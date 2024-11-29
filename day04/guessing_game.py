@@ -19,7 +19,11 @@ def user_guess ():
             return 'show_secret'
         
         try:
-            return int(user_input)
+            guess = int(user_input)
+            if 1 <= guess <= 20:
+                return guess
+            else:
+                print ("Please enter a number between 1 and 20")
         except ValueError:
             print("Invalid input. Please enter a number between 1 to 20, 'x' to exit, 'n' for new game, or 's' to cheat.")
 
