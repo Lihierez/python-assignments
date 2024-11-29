@@ -10,6 +10,9 @@ Each folder represents a different lesson of the course, containing the relevant
   - Using `input` in our `rectangle.py` to get the values from the user.
   - Using `argparse` in our `circle.py` to get values from the user.
   - Creating our own code to solve a scientific or mathematical formula. I chose to calculae ∆CT and ∆∆CT for qPCR analysis.
+- **Day 03**:
+  - Creating interactive "guessing game"
+  - Preforming t-test, visualizing data with hustogram and box-plot
 
 
 
