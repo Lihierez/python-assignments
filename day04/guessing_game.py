@@ -5,7 +5,7 @@ import random
 
 # The user guesses
 def user_guess ():
-    user_input = input("Guess a nember between 1 to 20:"). strip()
+    user_input = input("Guess a number between 1 to 20:"). strip()
     # If the user enters "x" any time, exit the program.
     if user_input == 'x':
         print("Thanks for playing!")
@@ -15,7 +15,6 @@ def user_guess ():
     elif user_input == 's':
         return 'show_secret'
     return int(user_input)
-
 
 def main ():
     # The computer "thinks" a about a whole number between 1 and 20
@@ -48,7 +47,7 @@ def main ():
             if guess < computer_number:
                 print('Number is too small, please guess again')
             elif guess > computer_number:
-                print('Numner is too big, please guess again')
+                print('Number is too big, please guess again')
             else:
                 print (f'You are correct! Nunber of guesses:', {Number_of_guess})
                 play_again= input('Would you like to play again? please answer yes/no:').strip().lower()
