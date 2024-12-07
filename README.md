@@ -13,8 +13,9 @@ Each folder represents a different lesson of the course, containing the relevant
 - **Day 04**:
   - Creating interactive "guessing game"
   - Preforming t-test, visualizing data with hustogram and box-plot
-
-
+- **Day 05**:
+  - Creating ia function that calculates and displays the nucleotide composition of one or more files, including individual file statistics and a global summary across all files provided.
+  - Loading a biological dataset, performing basic data analysis and visualizing the results using bar and scatter plots with Python and pandas.
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" alt="python" width="100" style="border-radius: 15px;">
