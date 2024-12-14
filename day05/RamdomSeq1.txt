@@ -1,4 +1,3 @@
->random sequence 1 consisting of 200 bases.
 tgaatatgtgaaacgcggtagctaaactgcttgaccaaactgagctttagtactgacatt
 tcgagcgccatcattcttagacactatcgtcctacatgccagcacatcgtggatacgatc
 tcagtaagatgttttcgaagattattgttgccggacggcaccatagaggacatacccatt
