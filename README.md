@@ -16,6 +16,9 @@ Each folder represents a different lesson of the course, containing the relevant
 - **Day 05**:
   - Creating ia function that calculates and displays the nucleotide composition of one or more files, including individual file statistics and a global summary across all files provided.
   - Loading a biological dataset, performing basic data analysis and visualizing the results using bar and scatter plots with Python and pandas.
+- **Day 06**:
+  - Write a command-line tool to search NCBI databases for a term, download up to a specified number of items, and save them in individual files. Log the search details (date, term, number of results, total matches) in a CSV file.
+  - Assignment 6- practicing dictionary use. 
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" alt="python" width="100" style="border-radius: 15px;">
