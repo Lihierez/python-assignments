@@ -24,7 +24,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--database', default='nucleotide', help='NCBI database')
 parser.add_argument('--term', required=True, help='Search term')
 parser.add_argument('--number', type=int, default=10, help='Number of records')
-parser.add_argument('--email', required=True, help='User email for NCBI API')  # New argument
+parser.add_argument('--email', required=True, help='User email for NCBI API')
 args = parser.parse_args()
 
 Entrez.email = args.email
